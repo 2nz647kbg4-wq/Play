@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.1836,
-      "y": 0.465,
+      "x": 0.2023,
+      "y": 0.6542,
       "uniqueID": "id-13234",
       "ioValues": [
         {
@@ -36,24 +36,20 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.2836,
-      "y": 0.465,
+      "x": 0.2918,
+      "y": 0.4509,
       "uniqueID": "id-13238",
       "ioValues": [
         {
           "name": "geometry",
           "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "height",
-          "ioValue": 20
         }
       ]
     }
   ],
   "allConnectors": [
     {
-      "ap2Name": "geometry",
+      "ap2Name": "height",
       "ap1ID": "id-13234",
       "ap2ID": "id-13238"
     }
