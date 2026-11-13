@@ -19,19 +19,45 @@
       ]
     },
     {
-      "atomType": "Import",
-      "x": 0.2539,
-      "y": 0.4836,
-      "uniqueID": "id-13226",
-      "fileName": "Whale.jpg",
-      "name": "Import",
-      "type": "JPG",
-      "repoOwner": "2nz647kbg4-wq",
-      "repoName": "Play",
-      "SVGwidth": 10
+      "atomType": "Rectangle",
+      "x": 0.1836,
+      "y": 0.465,
+      "uniqueID": "id-13234",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.2836,
+      "y": 0.465,
+      "uniqueID": "id-13238",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 20
+        }
+      ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-13234",
+      "ap2ID": "id-13238"
+    }
+  ],
   "unitsKey": "Inches",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
